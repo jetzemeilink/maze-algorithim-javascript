@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maze {
+  margin: 1rem;
+  width: 200px;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.tile {
+  width: 20px;
+  height: 20px;
+  background: blue;
+  border: 2px solid #000;
+}
+
+.visited {
+  background: #fff;
+}
+
+.path-north {
+  border-top: 1px solid #fff;
+}
+
+.path-south {
+  border-bottom: 1px solid #fff;
+}
+
+.path-east {
+  border-right: 1px solid #fff;
+}
+
+.path-west {
+  border-left: 1px solid #fff;
+}
+
+
+
+.active {
+  background: green;
+}
